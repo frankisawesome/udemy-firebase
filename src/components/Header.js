@@ -23,12 +23,12 @@ function Header() {
           search
         </NavLink>
         <div className="divider">|</div>
-        <NavLink to="/create" className="header-link">
-          create
+        <NavLink to="/link/" className="header-link">
+          detail
         </NavLink>
         {user && <><div className="divider">|</div>
           <NavLink to="/create" className="header-link">
-            submit
+            create
         </NavLink></>}
 
       </div>
